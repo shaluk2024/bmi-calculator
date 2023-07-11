@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    android:id="@+id/llMain">
+
+    <EditText
+        android:id="@+id/edtFeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:textColorHint="#fff"
+        android:hint="Enter height in feet"/>
+
+    <EditText
+        android:id="@+id/edtInch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:textColorHint="#fff"
+        android:hint="Enter height in inch" />
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:textColorHint="#fff"
+        android:hint="Enter weight"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Result" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
